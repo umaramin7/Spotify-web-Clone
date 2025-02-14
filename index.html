@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./pictures/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option one" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option one">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="options">
+                    <div class="lib-options nav-option">
+                            <img src="./pictures/library_icon.png">
+                            <a href="#">Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-p1">Create your first playlist</p>
+                        <p class="box-p2">It's easy we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                    <div class="box">
+                        <p class="box-p1">Let's find some podcasts to follow</p>
+                        <p class="box-p2">We'll keep you updated on the latest episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="stick-nav-icons">
+                    <img src="./pictures/backward_icon.png" alt="">
+                    <img src="./pictures/forward_icon.png" alt="">
+                </div>
+                <div class="sticky-nav-options">
+                    <button class="badge nav-item">Explore Premium</button>
+                    <button class="badge nav-item dark-badge"><i class="fa-regular fa-circle-down " style="margin-right: 5px;"></i>Install App</button>
+                    <i class="fa-regular fa-user nav-item"></i>
+                </div>    
+            </div>
+                <h2>Recently Played</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <img class="card-img" src="./pictures/NF.png" alt="">
+                        <p class="card-title">Best of NF</p>
+                        <p class="card-info">This is NF. The essential tracks all i... </p>
+                        
+                    </div>
+                    <div class="card">
+                        <img class="card-img" src="./pictures/Karan.png" alt="">
+                        <p class="card-title">Best of Karan</p>
+                        <p class="card-info">This is Karan Aujla. The essential tracks...</p>
+                    </div>
+                    <div class="card">
+                        <img class="card-img" src="./pictures/Eminem.png" alt="">
+                        <p class="card-title">Best of Eminem</p>
+                        <p class="card-info">This is Eminem. The essential tracks all i...</p>
+                    </div>
+                    <div class="card">
+                        <img class="card-img" src="./pictures/Neffex.png" alt="">
+                        <p class="card-title">Best of Neffex</p>
+                        <p class="card-info">This is Neffex. The essential tracks all i...</p>
+                    </div>
+                </div>
+
+                <h2>Top Mixes for You</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <img class="card-img" src="./pictures/Aujla.png" alt="">
+                        <p class="card-title">Daily Mix 01</p>
+                        <p class="card-info">Karan Aujla, Imran Khan, Amantej...</p>
+                    </div>
+                    <div class="card">
+                        <img class="card-img" src="./pictures/Shubh.png" alt="">
+                        <p class="card-title">Daily Mix 02</p>
+                        <p class="card-info">Shubh, Sidhu Moose Wala, Shooter Kah...</p>
+                    </div>
+                    <div class="card">
+                        <img class="card-img" src="./pictures/DM-3.png" alt="">
+                        <p class="card-title">Daily Mix 03</p>
+                        <p class="card-info">Pritam, Mohammed Irfan, Yo Yo Honey...</p>
+                    </div>
+                    <div class="card">
+                        <img class="card-img" src="./pictures/Daily mix.png" alt="">
+                        <p class="card-title">Daily Mix 04</p>
+                        <p class="card-info">fallen angel, Six Dior, OURGRND and more</p>
+                    </div>
+                    <div class="card">
+                        <img class="card-img" src="./pictures/Moody Mix.png" alt="">
+                        <p class="card-title">Moody Mix</p>
+                        <p class="card-info">foreveralone, Olivia Rodrigo, Mitski and...</p>
+                    </div>
+                    <div class="card">
+                        <img class="card-img" src="./pictures/Pop Mix.png" alt="">
+                        <p class="card-title">Pop Mix</p>
+                        <p class="card-info">Mitski, Lana Del Ray and Ashe</p>
+                    </div>
+                    <div class="card">
+                        <img class="card-img" src="./pictures/Olivia.png" alt="">
+                        <p class="card-title">Olivia Rodrigo Mix</p>
+                        <p class="card-info">Lady Gaga, Olivia Rodrigo and Weekn...</p>
+                    </div>
+                    <div class="card">
+                        <img class="card-img" src="./pictures/Chill mix.png" alt="">
+                        <p class="card-title">Chill Mix</p>
+                        <p class="card-info">TommyMuzzic, Chris Brown, Weeknd...</p>
+                    </div>
+                    
+                </div>
+                <h2>Featured Charts</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <img class="card-img" src="./pictures/card5img.jpeg" alt="">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your weekly update of the most played...</p>
+                    </div>
+                    <div class="card">
+                        <img class="card-img" src="./pictures/card6img.jpeg" alt="">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your weekly update of the most played...</p>
+                    </div>
+                    <div class="card">
+                        <img class="card-img" src="./pictures/card1img.jpeg" alt="">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily update of the most played...</p>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="line"></div>
+                </div>
+        </div>
+        <div class="music-player">
+            <div class="album">
+                <div class="artist">
+                    <img src="./pictures/download.jpeg" alt="">
+                </div>
+                <div class="song-info">
+                    <p class="song-name" style="opacity: 1;">Ordinary Life</p>
+                    <p class="atrist-name">The Weeknd</p>
+                </div>
+                <div class="like-add">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-download"></i>
+                </div>
+            </div>
+            <div class="player">
+                <div class="player-controls">
+                    <img src="./pictures/player_icon1.png" class="player-control-icon">
+                    <img src="./pictures/player_icon2.png" class="player-control-icon">
+                    <img src="./pictures/player_icon3.png" class="player-control-icon" style="opacity: 1; height: 2rem;">
+                    <img src="./pictures/player_icon4.png" class="player-control-icon">
+                    <img src="./pictures/player_icon5.png" class="player-control-icon">
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time" >00:00</span>
+                    <input class="progress-bar" type="range" min="0" max="100" step="1">
+                    <span class="tot-time" >3:33</span>
+                </div>
+            </div>
+            <div class="controls">
+                <img src="./pictures/RightOptions.png" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
