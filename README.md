@@ -2,8 +2,6 @@
   
 # 🎵 Spotify Clone 🎧
 
-[![Spotify Clone](./screenshots/homepage.png)](https://your-demo-link-here)
-
 ### Built with HTML, CSS & lots of ❤️ 
 
 </div>
