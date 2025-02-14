@@ -43,7 +43,7 @@
 
 1. **Clone the beats**
    ```bash
-   git clone https://github.com/yourusername/spotify-clone.git
+   git clone https://github.com/umaramin7/spotify web clone.git
    ```
 
 2. **Feel the music**
@@ -55,14 +55,7 @@
    - Open `index.html` in your browser
    - Turn up the volume! 🔊
 
-## 📸 Screenshots
 
-<div align="center">
-
-![Interface Preview](picture.jpg)
-*Your Music, Your Way*
-
-</div>
 
 ## 💡 Learning Points
 
