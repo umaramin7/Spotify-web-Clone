@@ -85,7 +85,7 @@ This project is licensed under the MIT License - spreading the love of music! �
 <div align="center">
 
 ### Show some ❤️ by starring this repository!
-
+## Thanks
 </div>
 
 ---
