@@ -15,7 +15,7 @@
 - 📚 Library Management
 - 🎼 Music Player Controls
 - 🎵 Featured Playlists
-- 📱 Responsive Design
+- 📱 Responsive Designs
 
 ## 🛠️ Built With
 
