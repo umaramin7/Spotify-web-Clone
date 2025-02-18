@@ -78,7 +78,7 @@ This project is licensed under the MIT License - spreading the love of music! �
 
 ## 💐 Acknowledgments
 
-- 🙏 Inspiration: Spotify Web Player
+- 🙏 Inspiration: Spotify Web Players
 - 🎨 Icons: Font Awesome
 - 🎵 Design: Spotify's Amazing Interface
 
